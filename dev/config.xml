@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://www.example.org/example">
+  <name>Webpage Mascot "mOmonga"</name>
+  <description>Webpage Mascot "mOmonga"</description>
+  <author href=""
+          email="">s_hiiragi</author>
+  <icon src="resources/icon48.png"/>
+  <icon src="resources/icon128.png"/>
+</widget>
