@@ -1,6 +1,7 @@
 /**
- * @name   content.js
- * @author s_hiiragi, ne_Sachirou
+ * @name     content.js
+ * @author   s_hiiragi, ne_Sachirou
+ * @license  MIT
  */
 (function () {
 
