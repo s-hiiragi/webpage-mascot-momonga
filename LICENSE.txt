@@ -1,7 +1,7 @@
 Webpage Mascot "mOmonga" (without all images)
 Copyright (c) 2012-2013
   s_hiiragi <https://github.com/s-hiiragi>, 
-  ne_sachirou <https://github.com/ne-sachirou>
+  ne_Sachirou <https://github.com/ne-sachirou>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of 
 this software and associated documentation files (the "Software"), to deal in 
@@ -26,8 +26,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 all images of Webpage Mascot "mOmonga"
 Copyright (c) 2012-2013
   s_hiiragi <https://github.com/s-hiiragi>, 
-  ne_sachirou <https://github.com/ne-sachirou>
+  ne_Sachirou <https://github.com/ne-sachirou>
 
-This work is licensed under the Creative Commons •\Ž¦ 2.1 “ú–{ License. 
+This work is licensed under the Creative Commons è¡¨ç¤º 2.1 æ—¥æœ¬ License. 
 To view a copy of this license, visit 
 http://creativecommons.org/licenses/by/2.1/jp/.
