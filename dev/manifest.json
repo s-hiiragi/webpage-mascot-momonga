@@ -1,6 +1,6 @@
 {
   "name" : "Webpage Mascot \"mOmonga\"",
-  "version" : "1.0",
+  "version" : "1.0.1",
   "manifest_version" : 2,
 
   "description" : "Webpage Mascot \"mOmonga\"",
@@ -8,6 +8,13 @@
      "48" : "resources/icon48.png",
      "128" : "resources/icon128.png"
   },
+
+  "background" : {
+    "scripts" : [
+      "includes/background.js"
+    ], 
+    "persistent" : false
+  }, 
 
   "content_scripts" : [
     {
@@ -19,6 +26,12 @@
       ]
     }
   ],
+  
+  "permissions" : [
+    "contextMenus", 
+    "http://*/*", 
+    "alarms"
+  ], 
 
   "web_accessible_resources" : [
     "resources/momonga120.png"

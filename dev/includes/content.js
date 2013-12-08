@@ -91,4 +91,40 @@ div.onclick = function () {
   });
 };
 
+var ticker = window.document.createElement('div');
+ticker.id = '#rss-ticker';
+ticker.style.cssText = [
+    'position: fixed',
+    'left: 0',
+    'bottom: -1pt',
+    'margin: 0',
+    'padding: 0', 
+    'background-color: red', 
+    'color: white', 
+    'z-index: 65535'
+  ].join('; ');
+window.document.body.appendChild(ticker);
+var ticker_link = window.document.createElement('a');
+ticker_link.textContent = 'dummy';
+ticker.appendChild(ticker_link);
+
+
+chrome.runtime.onMessage.addListener(
+    function(req, sender, res)
+{
+  console.log(req, sender);
+  switch (req.message)
+  {
+  case 'dispatch-rss':
+    var item = req.items[Math.floor(req.items.length * Math.random())];
+    ticker_link.textContent = item.title;
+    ticker_link.href = item.url;
+    res(null);
+    break;
+  default:
+    res(null);
+    break;
+  }
+});
+
 }());
